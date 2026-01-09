@@ -21,8 +21,8 @@ export const siteConfig = {
       skills: ["Express", "Node.js", "MongoDB"],
     },
     {
-      name: "AI Developer Assistant ",
-      description:"AI-powered coding assistant built with LangChain, Python, FAISS, and OpenAI API to answer queries, generate code, and debug errors, boosting developer efficiency by 40%. Features RAG implementation with FastAPI deployment, async handling, and caching for sub-2-second response times under heavy load.",
+      name: "PDF Document Q&A Chatbot",
+      description:"Developed a Retrieval-Augmented Generation (RAG) system that enables users to upload PDF documents and ask natural-language questions about their content. Utilized LangChain for PDF loading, text chunking, and pipeline orchestration; generated embeddings with OpenAI API and stored them in a local FAISS vector database for fast similarity search. Integrated OpenAI's GPT model to generate context-aware answers based on retrieved passages.",
         link: "",
       skills: ["LangChain", "Python", "FAISS" , "OpenAI"],
     },
